@@ -1,6 +1,6 @@
 # chandan-yadav-wasserstoff-AiInternTask
 
-# object detection and description system
+# object detection and annotation system
 
 ## overview
 
