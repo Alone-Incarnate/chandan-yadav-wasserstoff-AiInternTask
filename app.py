@@ -176,7 +176,7 @@ def display_results(objects, full_segmented_image, annotated_image):
   
 
 # Streamlit Interface
-st.title("Object Detection and Description System")
+st.title("Object Detection and Annotation System")
 
 # Image uploader in Streamlit
 uploaded_image = st.file_uploader("Upload an Image", type=["jpg", "jpeg", "png"])
