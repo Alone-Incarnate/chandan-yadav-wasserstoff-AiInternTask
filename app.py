@@ -14,7 +14,7 @@ from groq import Groq
 
 
 # Initialize Groq client
-client = Groq(api_key="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")
+client = Groq(api_key="Please use your groq api key here")  #Please use your Groq api key 
 
 # Load YOLOv8 model for object detection
 yolo_model = YOLO("yolov8n.pt")
