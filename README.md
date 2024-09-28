@@ -4,12 +4,13 @@
 
 ## overview
 
-the object detection and description system is an innovative application that leverages state-of-the-art deep learning models to detect and describe objects in images. by utilizing the yolov8 model for object detection and the segformer model for segmentation, this system accurately identifies various objects within an image. additionally, it employs the groq api to generate concise and informative descriptions of the detected objects. this project aims to provide a user-friendly interface through streamlit, making it accessible for users to upload images and receive instant object analysis.
+the object detection and anotation system is an innovative application that leverages state-of-the-art deep learning models to detect and describe objects in images. by utilizing the yolov8 model for object detection and the segformer model for segmentation, this system accurately identifies various objects within an image. additionally, it employs the groq api to generate concise and informative descriptions of the detected objects. this project aims to provide a user-friendly interface through streamlit, making it accessible for users to upload images and receive instant object analysis.
 
 ## features
 
 - object detection: identifies multiple objects in an uploaded image using yolov8.
 - segmentation: isolates detected objects for better visualization and analysis.
+- annotation: annotate every detected object or person in the image.
 - description generation: provides precise, 50-word descriptions of the identified objects using the groq api.
 - user-friendly interface: built with streamlit for easy interaction and visualization of results.
 
@@ -33,9 +34,6 @@ to set up the project on your local machine, follow these steps:
 
 if you wish to contribute to this project, feel free to fork the repository and submit a pull request. please ensure to follow best coding practices and maintain the project's style.
 
-## license
-
-this project is licensed under the mit license. see the license file for details.
 
 ---
 
