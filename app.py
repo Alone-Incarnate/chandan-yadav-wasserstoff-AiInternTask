@@ -10,7 +10,7 @@ from transformers import AutoModelForSemanticSegmentation, AutoImageProcessor, p
 from groq import Groq
 
 
-# Load environment variables from .env file
+
 
 
 # Initialize Groq client
